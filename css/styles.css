@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+
+* {
+    font-family: "Ubuntu Sans", sans-serif;
+    overflow-x: hidden;
+}
+
+body {
+  background-color: #fff;
+  color: #033480;
+  padding-top: 20px;
+}
+
+.card-pelicula {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  transition: transform 0.9s ease;
+}
+
+header, footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icono {
+  text-align: center;
+  width: 250px;
+  height: auto;
+  margin: 0;
+}
+
+.iconofooter {
+  text-align: center;
+  width: 200px;
+  height: auto;
+  margin: 0;
+}
+
+
+.card-pelicula:hover {
+  transform: scale(0.95);
+}
+
+.card-pelicula img {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card-detalles {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.card-detalles img {
+  border-radius: 8px;
+  max-width: 100%;
+}
+
+.btn{
+  text-align: center;
+  margin-top: 5px;
+  margin: 5px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.mb-4 {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.mt-5 {
+  text-align: center;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.btn1 {
+  background-color: #033480;
+  color: rgb(255, 255, 255);
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  margin-left: 15px;
+  border-radius: 5px;
+}
+
+.btn1:hover {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
+.btn {
+  background-color: #ff0000;
+  color: rgb(255, 255, 255);
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  margin-left: 15px;
+  border-radius: 5px;
+}
+
+
+
+.alert-success {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  width: 80%;
+  max-width: 600px;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+ color: #155724;
+  }
+
+.alert-danger {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  width: 80%;
+  max-width: 600px;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+  color: #721c24;
+  }
+
+
+.btn:hover {
+  background-color: #9d0000;
+  color: rgb(255, 255, 255);
+}
+
+
+@media (max-width: 768px) {
+  .card-pelicula {
+    width: 100%;
+  }
+
+  .mb-4 {
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+}
+
+  
