@@ -101,6 +101,7 @@
         </div>
         <div class="mt-5">
           <h2>Favoritos</h2>
+          <img src="img/footer.png" alt="logo" class="iconofooter">
           <div class="row">
             <div class="col-lg-4 col-md-6 col-sm-12 mb-3 pb-5" v-for="fav in favoritos" :key="fav.id">
               <div class="card card-pelicula mb-3" v-if="fav.poster_path && fav.overview">
@@ -120,9 +121,6 @@
       </div>
     </div>
   </div>
-  <footer>
-    <img src="img/footer.png" alt="logo" class="iconofooter">
-  </footer>
   <script src="https://cdn.jsdelivr.net/npm/vue@3.2.20/dist/vue.global.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   <script src="js/app.js"></script>
