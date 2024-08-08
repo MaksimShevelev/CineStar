@@ -91,6 +91,7 @@ h2 {
   cursor: pointer;
   margin-left: 15px;
   border-radius: 5px;
+  margin-top: 15px;  
 }
 
 .btn1:hover {
