@@ -1,6 +1,6 @@
 {
-  "name": "OMNICAR",
-  "short_name": "OMNICAR",
+  "name": "CineStar",
+  "short_name": "CineStar",
   "description": "Vue.js PWA",
   "start_url": "/",
   "display": "standalone",
